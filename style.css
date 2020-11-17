@@ -85,7 +85,6 @@ img {
 
   #steps .row>.left,
   #steps .row>.central {
-    float: left;
     width: 50%;
   }
 
@@ -93,21 +92,18 @@ img {
     width: 100%;
     margin-top: 50px;
   }
-
 }
 
 /* versione vavigabile da 0 a 420px */
 @media screen and (max-width: 420px) {
   #lezioni .row>.left,
   #lezioni .row>.right {
-    float: none;
     width: 100%;
   }
 
   #steps .row>.left,
   #steps .row>.central,
   #steps .row>.right {
-    float: none;
     width: 100%;
   }
 }
